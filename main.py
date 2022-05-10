@@ -10,8 +10,17 @@
 # greet()
 
 #Functions that allow for input
-def greet_with_name(name):
-  print(f"Hello {name}")
-  print(f"How do you do {name}?")
+# def greet_with_name(name):
+#   print(f"Hello {name}")
+#   print(f"How do you do {name}?")
 
-greet_with_name("Aldriana")
+# greet_with_name("Aldriana")
+
+#Functions that allow more than one input
+def greet_with(name, location):
+  print(f"Hello {name}")
+  print(f"What is it like in {location}")
+
+# greet_with("Tim", "Florida")
+
+greet_with(location = "Florida", name = "Johnny")
